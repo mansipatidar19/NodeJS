@@ -1,0 +1,50 @@
+Explaination:
+
+
+// API is an interface that helps us to intercat with a web server. 
+// It allows us to send a request on the server and return back result to us.
+
+// 4 main requests:
+// 1. GET: which retrieves data from the server. 
+// 2. POST:which sents data to the server, to save it or utilize it later on.
+// 3. PUT: which is used to update data on a server.
+// 4. DELETE: which is to delete data from a server.
+
+
+Explaination In Easy Way:
+
+API (Application Programming Interface):
+
+An API, or Application Programming Interface, is like a waiter in a restaurant. Imagine you're a customer (an application or 
+program), and you want to order something (request data or functionality) from the kitchen (a server or another application). 
+Instead of going into the kitchen yourself, you give your order to the waiter, who then communicates with the kitchen staff 
+and brings your food back to you. In this analogy:
+
+
+You (Customer): Your application or program.
+
+Waiter: The API. It takes your requests and communicates with the "kitchen" (server or another application).
+
+Kitchen: The server or the part of another application that performs the requested actions or retrieves data.
+
+So, an API allows different software applications to communicate and share services, much like a waiter facilitates 
+communication between a customer and the kitchen.
+
+
+RESTful API:
+
+RESTful API is a specific style of API design, and it's like ordering from a menu. You have a clear menu (set of predefined 
+operations or endpoints), and you use standard methods (like GET, POST, PUT, DELETE) to interact with it. This structure makes 
+things easy to understand and consistent, just like knowing that when you order from a menu, you follow certain conventions.
+
+Now, let's briefly explain the four main types of HTTP methods used in RESTful APIs:
+
+GET: Think of it as asking for the menu. You're not changing anything; you just want to see what's available.
+
+POST: This is like placing a new order. You're sending some data (your order) to be processed.
+
+PUT: Imagine you ordered something, but you want to make a change to it. PUT is like telling the waiter to replace your 
+current order with a new one.
+
+DELETE: If you decide you don't want your order anymore, you ask the waiter to remove it. Similarly, DELETE is used to delete 
+or remove something from the server
