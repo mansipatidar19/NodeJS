@@ -15,7 +15,7 @@ app.get("/student/:id", async (req, res) => {
   } else {
     res.send("Student not found!");
   }
-});
+}); 
 
 app.post("/student", jsonParser, async (req, res) => {
   const { student_id, student_name } = req.body;
